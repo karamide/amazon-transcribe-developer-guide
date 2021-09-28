@@ -10,7 +10,7 @@ Custom vocabularies work best when used to target specific words or phrases\. We
 Custom vocabulary basics:
 + You can have up to 100 vocabularies \(as separate text files\) in your account\.
 + The size limit for each custom vocabulary file is 50 Kb\.
-+ Each vocabulary file can be in either table or list format; table format is strongly recommenended\.
++ Each vocabulary file can be in either table or list format; table format is strongly recommended\.
 + Your vocabulary files must be stored in an S3 bucket if using a table format\. If using a list, you can upload a text file using the console or include your list of words within an API/CLI call\.
 + Each entry must contain fewer than 256 characters, including hyphens\.
 + Only use characters from the allowed character set for your language \(see [Character sets for custom vocabularies](charsets.md)\)\.
